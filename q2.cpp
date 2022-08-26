@@ -9,8 +9,8 @@ int main(){
 	try{
 		int n;
 		cin>>n; // size of array
-		// vector<int> v(n);
-        int a[n];
+		
+        	int a[n];
 		vector<vector<int>> res;
 		for(int i=0;i<n;i++){
 			cin>>a[i]; // taking input
@@ -27,7 +27,7 @@ int main(){
 			}
 		}
 
-        cout<<"Subarrays with sum 0 are: "<<endl;
+        	cout<<"Subarrays with sum 0 are: "<<endl;
 		for(int i=0;i<res.size();i++){
 			for(int j=0;j<res[i].size();j++){
 				cout<<res[i][j]<<" ";
